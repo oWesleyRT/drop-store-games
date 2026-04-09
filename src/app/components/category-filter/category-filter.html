@@ -1,0 +1,19 @@
+<div class="filter-container">
+  <h3 class="filter-title">Categorias</h3>
+  <div class="filter-list">
+    <button
+      class="filter-btn"
+      [class.active]="selected() === ''"
+      (click)="onSelect('')">
+      Todos
+    </button>
+    @for (cat of categories(); track cat) {
+      <button
+        class="filter-btn"
+        [class.active]="selected() === cat"
+        (click)="onSelect(cat)">
+        {{ cat }}
+      </button>
+    }
+  </div>
+</div>

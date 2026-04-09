@@ -1,0 +1,39 @@
+<div class="card">
+  <a [routerLink]="['/jogo', game().slug]" class="card-image-link">
+    <div class="card-image">
+      <img
+        [src]="game().imagem"
+        [alt]="game().nome"
+        (error)="onImageError($event)"
+        loading="lazy"
+      />
+      <div class="card-image-placeholder">
+        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="6" width="20" height="12" rx="2"/>
+          <circle cx="8" cy="12" r="2"/>
+          <circle cx="16" cy="12" r="2"/>
+          <line x1="12" y1="8" x2="12" y2="16"/>
+        </svg>
+      </div>
+      <span class="card-badge">{{ game().midia }}</span>
+    </div>
+  </a>
+  <div class="card-body">
+    <span class="card-category">{{ game().categoria }}</span>
+    <a [routerLink]="['/jogo', game().slug]" class="card-title-link">
+      <h3 class="card-title">{{ game().nome }}</h3>
+    </a>
+    <div class="card-price">
+      @if (game().precoOriginal) {
+        <span class="card-price-original">{{ game().precoOriginal | currency:'BRL':'symbol':'1.2-2' }}</span>
+      }
+      <span class="card-price-current" [class.has-discount]="!!game().precoOriginal">{{ game().preco | currency:'BRL':'symbol':'1.2-2' }}</span>
+    </div>
+    <div class="card-actions">
+      <a [routerLink]="['/jogo', game().slug]" class="btn-details">Ver detalhes</a>
+      <a [href]="getWhatsAppUrl()" target="_blank" rel="noopener" class="btn-interest">
+        Tenho interesse
+      </a>
+    </div>
+  </div>
+</div>

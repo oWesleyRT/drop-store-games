@@ -1,0 +1,18 @@
+<app-hero-banner />
+
+<section id="catalogo" class="catalog-section">
+  <div class="catalog-container">
+    <div class="catalog-header">
+      <h2 class="catalog-title">Nosso Catálogo</h2>
+      <p class="catalog-subtitle">Todos os jogos são mídia física e em condição de usado</p>
+    </div>
+
+    <app-search-bar [(searchTerm)]="searchTerm" />
+    <app-category-filter
+      [categories]="categories"
+      [selected]="selectedCategory()"
+      (categoryChange)="onCategoryChange($event)"
+    />
+    <app-game-list [games]="filteredGames()" />
+  </div>
+</section>
