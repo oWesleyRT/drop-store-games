@@ -4,6 +4,7 @@
     "slug": "splatoon-2",
     "nome": "Splatoon 2",
     "categoria": "Ação",
+    "valorSiteNintendo": 0.00,
     "preco": 249.90,
     "imagem": "assets/images/splatoon-2.jpg",
     "descricao": "O shooter mais colorido e divertido da Nintendo! Batalhas online intensas com tintas e muita ação. Mídia física seminova em excelente condição.",
@@ -15,6 +16,7 @@
     "slug": "mario-strikers",
     "nome": "Mario Strikers",
     "categoria": "Esporte",
+    "valorSiteNintendo": 0.00,
     "preco": 289.90,
     "imagem": "assets/images/mario-strikers.jpg",
     "descricao": "Entre em campo com Mario e seus amigos em partidas de futebol arcade cheias de ação, contato e power-ups. Mario Strikers: Battle League Football traz confrontos intensos, modo online e muita diversão competitiva no Nintendo Switch. Mídia física seminova em excelente condição.",
@@ -23,15 +25,81 @@
   },
   {
     "id": 3,
-    "slug": "mario-strikers",
-    "nome": "Mario Strikers",
-    "categoria": "Esporte",
-    "preco": 289.90,
-    "imagem": "assets/images/mario-strikers.jpg",
-    "descricao": "Entre em campo com Mario e seus amigos em partidas de futebol arcade cheias de ação, contato e power-ups. Mario Strikers: Battle League Football traz confrontos intensos, modo online e muita diversão competitiva no Nintendo Switch. Mídia física seminova em excelente condição.",
+    "slug": "immortals-fenyx-rising",
+    "nome": "Immortals Fenyx Rising",
+    "categoria": "Aventura",
+    "valorSiteNintendo": 199.90,
+    "preco": 179.90,
+    "imagem": "assets/images/immortals-fenyx-rising.jpg",
+    "descricao": "Viva uma grande aventura mitológica no papel de Fenyx, um novo semideus alado em missão para salvar os deuses gregos. Explore um vasto mundo aberto, enfrente criaturas lendárias e use poderes divinos em combates e enigmas no Nintendo Switch. Mídia física seminova em excelente condição.",
     "condicao": "Usado",
     "midia": "Física"
   },
+  {
+    "id": 4,
+    "slug": "super-mario-odyssey",
+    "nome": "Super Mario Odyssey",
+    "categoria": "Aventura",
+    "valorSiteNintendo": 329.90,
+    "preco": 249.90,
+    "imagem": "assets/images/super-mario-odyssey.jpg",
+    "descricao": "Acompanhe Mario em uma aventura incrível por vários reinos ao redor do mundo para salvar a princesa Peach das garras de Bowser. Com fases criativas, exploração divertida e a ajuda de Cappy, Super Mario Odyssey é um dos maiores clássicos do Nintendo Switch. Mídia física seminova em excelente condição.",
+    "condicao": "Usado",
+    "midia": "Física"
+  },
+  {
+  "id": 5,
+  "slug": "pokemon-shield",
+  "nome": "Pokémon Shield",
+  "categoria": "RPG",
+  "valorSiteNintendo": 329.90,
+  "preco": 249.90,
+  "imagem": "assets/images/pokemon-shield.jpg",
+  "descricao": "Explore a região de Galar em uma jornada épica para se tornar o novo Campeão Pokémon. Capture, treine e batalhe com diversos Pokémon em ginásios, áreas abertas e confrontos emocionantes ao longo da aventura. Pokémon Shield oferece uma experiência clássica da franquia com novidades marcantes no Nintendo Switch. Mídia física seminova em excelente condição.",
+  "condicao": "Usado",
+  "midia": "Física"
+  },
+  {
+    "id": 6,
+    "slug": "pokemon-sword",
+    "nome": "Pokémon Sword",
+    "categoria": "RPG",
+    "valorSiteNintendo": 329.90,
+    "preco": 249.90,
+    "imagem": "assets/images/pokemon-sword.jpg",
+    "descricao": "Viaje pela região de Galar em busca do título de Campeão Pokémon, enfrentando líderes de ginásio e descobrindo novos desafios pelo caminho. Capture, evolua e monte seu time ideal em uma aventura cheia de batalhas, exploração e criaturas memoráveis. Pokémon Sword traz toda a magia da série para o Nintendo Switch. Mídia física seminova em excelente condição.",
+    "condicao": "Usado",
+    "midia": "Física"
+  },
+  {
+    "id": 7,
+    "slug": "pokemon-violet",
+    "nome": "Pokémon Violet",
+    "categoria": "RPG",
+    "valorSiteNintendo": 349.90,
+    "preco": 249.90,
+    "imagem": "assets/images/pokemon-violet.jpg",
+    "descricao": "Explore a vasta região de Paldea em uma aventura de mundo aberto cheia de liberdade, descobertas e novos Pokémon para capturar. Em Pokémon Violet, você poderá montar seu time, enfrentar líderes de ginásio, desvendar mistérios e seguir sua própria jornada no seu ritmo. Uma experiência moderna e envolvente da franquia no Nintendo Switch. Mídia física seminova em excelente condição.",
+    "condicao": "Usado",
+    "midia": "Física"
+  },
+  {
+    "id": 8,
+    "slug": "pokemon-scarlet",
+    "nome": "Pokémon Scarlet",
+    "categoria": "RPG",
+    "valorSiteNintendo": 349.90,
+    "preco": 249.90,
+    "imagem": "assets/images/pokemon-scarlet.jpg",
+    "descricao": "Aventure-se pela região de Paldea em um mundo aberto repleto de exploração, batalhas e novos Pokémon para conhecer. Pokémon Scarlet traz uma jornada dinâmica em que você escolhe seu próprio caminho, enfrenta desafios variados e constrói sua equipe ideal ao longo da aventura. Uma das experiências mais ambiciosas da série no Nintendo Switch. Mídia física seminova em excelente condição.",
+    "condicao": "Usado",
+    "midia": "Física"
+  },
+
+
+
+
+
   {
     "id": 1,
     "slug": "zelda-breath-of-the-wild",
