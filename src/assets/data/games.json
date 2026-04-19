@@ -166,5 +166,41 @@
     "descricao": "Voe pelos céus e embarque em uma aventura inspirada no universo de Como Treinar o Seu Dragão. Em DreamWorks Dragões: Lendas dos Nove Reinos, você explora cenários cheios de desafios, descobre segredos e fortalece sua conexão com os dragões em uma jornada emocionante no Nintendo Switch. Mídia física seminova em excelente condição.",
     "condicao": "Usado",
     "midia": "Física"
+  },
+  {
+    "id": 15,
+    "slug": "super-smash-bros-ultimate",
+    "nome": "Super Smash Bros. Ultimate",
+    "categoria": "Luta",
+    "valorSiteNintendo": 329.90,
+    "preco": 289.90,
+    "imagem": "assets/images/super-smash-bros-ultimate.jpg",
+    "descricao": "Reúna os maiores ícones dos videogames em batalhas eletrizantes cheias de ação e estratégia. Em Super Smash Bros. Ultimate, você enfrenta adversários em combates intensos com uma enorme variedade de personagens, cenários e modos de jogo no Nintendo Switch. Mídia física seminova em excelente condição.",
+    "condicao": "Usado",
+    "midia": "Física"
+  },
+  {
+    "id": 15,
+    "slug": "just-dance-2020",
+    "nome": "Just Dance 2020",
+    "categoria": "Música e Ritmo",
+    "valorSiteNintendo": 0,
+    "preco": 199.90,
+    "imagem": "assets/images/just-dance-2020.jpg",
+    "descricao": "Dance ao som de grandes sucessos e transforme qualquer momento em uma festa cheia de energia e diversão. Em Just Dance 2020, você acompanha coreografias animadas, desafia amigos e se movimenta ao ritmo de músicas envolventes no Nintendo Switch. Mídia física seminova em excelente condição.",
+    "condicao": "Usado",
+    "midia": "Física"
+  },
+  {
+    "id": 16,
+    "slug": "pokemon-shining-pearl",
+    "nome": "Pokémon Shining Pearl",
+    "categoria": "RPG",
+    "valorSiteNintendo": 0,
+    "preco": 289.90,
+    "imagem": "assets/images/pokemon-shining-pearl.jpg",
+    "descricao": "Reviva a aventura pela região de Sinnoh em uma jornada repleta de descobertas, batalhas e Pokémon memoráveis. Em Pokémon Shining Pearl, você explora cidades, cavernas e rotas enquanto busca se tornar um grande Treinador no Nintendo Switch. Mídia física seminova em excelente condição.",
+    "condicao": "Usado",
+    "midia": "Física"
   }
 ]
