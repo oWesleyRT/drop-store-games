@@ -16,8 +16,9 @@ GAMES_JSON = os.path.join(
     os.path.dirname(__file__), "..", "src", "assets", "data", "games.json"
 )
 
-OUTPUT_OLX = os.path.join(os.path.dirname(__file__), "anuncios_olx.txt")
-OUTPUT_MARKETPLACE = os.path.join(os.path.dirname(__file__), "anuncios_marketplace.txt")
+OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
+OUTPUT_OLX = os.path.join(OUTPUT_DIR, "anuncios_olx.txt")
+OUTPUT_MARKETPLACE = os.path.join(OUTPUT_DIR, "anuncios_marketplace.txt")
 
 
 def limpar_texto(texto: str) -> str:
@@ -203,6 +204,7 @@ def carregar_games(path: str) -> List[Dict[str, Any]]:
 
 
 def salvar_arquivo(path: str, blocos: List[str]) -> None:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         f.write("\n\n".join(blocos))
 

@@ -10,6 +10,7 @@ import os
 GAMES_JSON = os.path.join(
     os.path.dirname(__file__), "..", "src", "assets", "data", "games.json"
 )
+OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "output")
 
 TEMPLATE_TITULO = "{nome} - Nintendo Switch - Mídia Física"
 
@@ -70,7 +71,8 @@ def main():
         output_lines.append(anuncio)
         print(anuncio)
 
-    output_path = os.path.join(os.path.dirname(__file__), "anuncios_olx.txt")
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    output_path = os.path.join(OUTPUT_DIR, "anuncios_olx.txt")
     with open(output_path, "w", encoding="utf-8") as f:
         f.write("\n".join(output_lines))
 
